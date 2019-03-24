@@ -8,7 +8,7 @@ var path = require('path');
 var app = express();
 
 
-app.use( express.static('public') );
+app.use( express.static('Public') );
 app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'), function() {
   console.log('Server up:', app.get('port'));
